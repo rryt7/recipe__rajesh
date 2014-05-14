@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    
+    <string name="ingediant_prompt">Choose Ingrediant</string>
+ 
+    <string-array name="ingrediant_arrays">
+        <item>Chicken</item>
+        <item>Shrimp</item>
+        <item>Onion</item>
+        <item>Milk</item>
+        <item>Eggs</item>
+        <item>Salt</item>
+        <item>Pepper</item>
+        <item>Vinegar</item>
+    </string-array>
+    
+    <string-array name="cuisine_arrays">
+        <item>Indian</item>
+        <item>Chinese</item>
+        <item>Korean</item>
+        <item>Italian</item>
+        <item>Mexican</item>
+        <item>French</item>
+        <item>American</item>
+        <item>Thai</item>
+    </string-array>
+    
+    <string-array name="meal_arrays">
+        <item>Break-fast</item>
+        <item>Lunch</item>
+        <item>Snacks</item>
+        <item>Drinks</item>
+        <item>Appetizer</item>
+        <item>Dinner</item>
+        <item>Desserts</item>
+        <item>Soups and Salads</item>
+    </string-array>
+    
+ 
+</resources>

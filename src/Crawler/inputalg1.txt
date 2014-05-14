@@ -1,0 +1,150 @@
+n /mnt/biginsights/opt/ibm/biginsights/IHC/hadoop-
+1.0.3-examples.jar
+hadoop fs -ls
+
+
+>>
+hadoop fs -put /home/idcuser/cs5531/testinput.dat /user/idcuser/cs5531/testinput.dat
+hadoop fs -ls /user/idcuser/cs*
+hadoop fs -ls -cat
+>>
+to read jar files
+hadoop jar /mnt/biginsights/opt/ibm/biginsights/IHC/hadoop-examples-1.0.3.jar wordcount /user/idcuser/cs5531/testinput.dat /user/idcuser/cs5531/output1
+ >>hadoop fs -copyToLocal /user/idcuser/cs5531/output /home/idcuser/cs5531/output
+
+
+hadoop fs -mv /home/idcuser/Desktop/testinput.dat /user/idcuser/cs5531
+
+Rajesh
+
+<<
+hadoop fs -mkdir /user/idcuser/aos
+
+hadoop fs -copyFromLocal /testinput.dat /user/idcuser/aos/
+
+cat testinput.dat
+
+170.224.169.85
+
+170.224.164.63
+
+hadoop jar Desktop/rajesh.jar NewPackage.Wc /user/idcuser/aos/inputalg1.txt /user/idcuser/rajeshalg1/ 5 10 HIGH
+
+sio
+
+C:\app\RajeshKannan\product\11.2.0\dbhome_1\bin;C:\oracle\product\10.2.0\db_1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;c:\cygwin\bin;c:\cygwin\usr\bin
+
+SchedulingAlgorithms.java
+
+<pool name="idcuser">
+	<defaultPoolSchedulingMode>algo1</defaultPoolSchedulingMode>
+	<schedulingMode>algo1</schedulingMode>
+</pool>
+
+hadoop jar Desktop/WordCount.jar com.demo.wordcount.WordCount /user/idcuser/aos/inputalg1.txt /user/idcuser/rajeshalg1/ 5 10 HIGH
+
+
+01111140058161
+
+hadoop-idcuser-jobtracker-vhost1083.log
+9537
+tail -n +1164102 "hadoop-idcuser-jobtracker-vhost1083.log" > logfile3
+
+/mnt/biginsights/var/ibm/biginsights/hadoop/logs
+
+sh run_jobs_testing.sh 8
+
+
+/mnt/biginsights/opt/ibm/biginsights/hadoop-conf/fair-scheduler.xml
+/mnt/biginsights/opt/ibm/biginsights/IHC/lib/hadoop-fairscheduler-1.0.3.jar
+/mnt/biginsights/var/ibm/biginsights/hadoop/hadoop-idcuser-jobtracker-vhost1083.log
+
+
+
+
+
+Dst
+garmin rryt7 - gmailpwd
+milbank
+billsoft
+clarus group
+netsmart technologies rryt7@mail.umkc.edu - pwd - facebook
+Cerner - rajeshcs044 - gmailpwd
+
+EMC
+Sprint   sprintcareers@sprint.com rryt7@mail.umkc.edu    gmailpwd
+state street
+Ericsson
+
+IBM
+HP
+ORACLE
+INFOSYS
+CTS
+
+Bloomberg
+Dropbox
+Mcgrahill financial
+Redhat
+Facebook
+Google
+EMC2
+Rolls Royce
+
+Microsoft corporation
+veeva
+qualcomm
+yelp
+IBM
+
+Logrhythm
+Ericsson
+RetailMeNot
+SEL
+ThousandEyes
+
+Broadcom corporation
+Twitter
+Eventbrite
+
+Bluecoat systems
+Raytheon
+peak6
+Mastercard
+
+I am a enthusiastic graduate student from UMKC. Looking for internship at Dropbox.
+
+info@cardinalscholars.com
+
+8168078502
+
+corporate.responsibility@ericsson.com
+
+nicole@visiontechsourcing.com
+C#/.Net Software Engineer
+Vision Tech Sourcing
+
+allison@n2sglobal.com
+
+
+Hello,
+
+I am Rajesh Kannan, Graduate student at UMKC - Kansas city, MO. I am looking for summer internship 2014.
+
+I have attached my Resume and Cover letter with this e-mail.
+
+Kindly do let me know for any intern opportunities.
+
+Thanks in Advance!!!
+
+Regards,
+Rajesh kannan R
+
+http://jsfiddle.net/rryt7/J77Lp/
+
+Shawn@CouponCloud.com
+
+doug.burris@netchemia.com
+jobs@netchemia.com
+rajeshcs044  gmailpwd
+8162352705

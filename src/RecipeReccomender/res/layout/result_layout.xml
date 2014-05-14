@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+     >
+
+    <ViewFlipper
+            android:id="@+id/view_flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="6dip" >
+            
+   <!--  <RelativeLayout  
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_margin="6dip">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Drag the control at the bottom"
+        android:textSize="20dp"
+        tools:context=".SlidingDrawerActivity" />
+    </RelativeLayout>
+    
+     <RelativeLayout  
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="6dip">
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Second line in the instruction"
+        android:textSize="20dp"
+        tools:context=".SlidingDrawerActivity" />
+     </RelativeLayout> -->
+     </ViewFlipper>
+
+    <SlidingDrawer
+        android:id="@+id/SlidingDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="400dip"
+        android:layout_alignParentBottom="true"
+        android:content="@+id/contentLayout"
+        android:handle="@+id/slideButton"
+        android:orientation="vertical"
+        
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/slideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients" >
+        </Button>
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            
+            android:padding="10dip" >
+
+	<ListView
+	    android:id="@+id/ingred_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/ingre_bg"
+	    android:padding="10dip" >
+	</ListView>
+           
+        </LinearLayout>
+    </SlidingDrawer>
+	<Button
+	     android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+        android:padding="10dip"
+        android:text="Detail"  
+	    >
+	    </Button>
+	    <Button
+	     android:id="@+id/similar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+        android:padding="10dip"  
+        android:text="more"
+	    >
+	    </Button>
+
+	    <TextView
+	        android:id="@+id/name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentTop="true"
+	        android:text="Large Text"
+	        android:paddingTop="20dp"
+	        android:textColor="#FE2E2E"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+</RelativeLayout>

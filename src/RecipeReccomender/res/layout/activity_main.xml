@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:id="@+id/ingrediant"
+        android:visibility="gone"
+        android:text="Ingredient" />
+    
+     <Spinner
+        android:id="@+id/ingrediant_spin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingrediant"
+        android:entries="@array/ingrediant_arrays"
+        android:visibility="gone"
+        android:prompt="@string/ingediant_prompt" />
+     
+      <Spinner
+        android:id="@+id/ingrediant_spin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingrediant_spin1"
+        android:entries="@array/ingrediant_arrays"
+        android:visibility="gone"
+        android:prompt="@string/ingediant_prompt" />
+      
+       <Spinner
+        android:id="@+id/ingrediant_spin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingrediant_spin2"
+        android:visibility="gone"
+        android:entries="@array/ingrediant_arrays"
+        android:prompt="@string/ingediant_prompt" />
+     
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cusine_text"
+        android:layout_marginTop="40dip"
+        android:layout_below="@id/ingrediant_spin3"
+        android:visibility="gone"
+        android:text="Cuisine" />
+    
+     <Spinner
+        android:id="@+id/cuisine_spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cusine_text"
+        android:entries="@array/cuisine_arrays"
+        android:visibility="gone"
+        android:prompt="@string/ingediant_prompt" />
+     
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meal_text"
+        android:layout_marginTop="40dip"
+        android:layout_below="@id/cuisine_spin"
+        
+        android:text="Type of Meal" />
+    
+     <Spinner
+        android:id="@+id/meal_spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meal_text"
+        android:entries="@array/meal_arrays"
+        android:prompt="@string/ingediant_prompt" />
+     
+      
+     
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer_text"
+        android:layout_marginTop="40dip"
+        android:layout_below="@id/meal_spin"
+        android:text="Time" />
+      
+      
+	   <NumberPicker android:id="@+id/hr"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_below="@id/timer_text"
+	   android:width="100dip"/>
+    
+	   <NumberPicker android:id="@+id/min"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_below="@id/timer_text"
+	   android:layout_toRightOf="@id/hr"
+	   android:layout_marginLeft="10dp"
+	   android:width="100dip"/>
+	    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hr_text"
+       android:layout_alignRight="@id/hr"
+        android:layout_below="@id/hr"
+        android:gravity="center"
+        android:layout_alignLeft="@id/hr"
+        android:text="Hours" />
+	     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/min_text"
+        android:gravity="center"
+       	android:layout_alignRight="@id/min"
+        android:layout_below="@id/min"
+        android:layout_alignLeft="@id/min"
+        android:text="Min" />
+	     
+	     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+       	android:layout_toRightOf="@id/min"
+        android:layout_below="@id/timer_text"
+        android:layout_alignRight="@id/cuisine_spin"
+        android:text="Submit" />
+	     
+	     
+	
+</RelativeLayout>
